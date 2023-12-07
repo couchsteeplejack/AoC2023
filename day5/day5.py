@@ -21,7 +21,7 @@ with open('day5.input.txt') as f:
 # almanac from example would look like:
 # [[[50, 98, 2], [52, 50, 48]], [[0, 15, 37], [37, 52, 2], [39, 0, 15]], [[49, 53, 8], [0, 11, 42], [42, 0, 7], [57, 7, 4]], [[88, 18, 7], [18, 25, 70]], [[45, 77, 23], [81, 45, 19], [68, 64, 13]], [[0, 69, 1], [1, 0, 69]]]
 locations = []
-print(len(range(seeds[1])))
+# range(seeds[1])
 
 for seed in [seeds[0]+i for i in range(seeds[1])]:
     print("seed {} ".format(seed))
